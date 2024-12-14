@@ -24,6 +24,6 @@
 # *.sw?
 
 node_modules/
-dist/
+dist/client
 *.env
 .DS_Store
