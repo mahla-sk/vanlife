@@ -15,6 +15,7 @@ function App() {
       <Link to="/">vanlife</Link>
       <nav>
         <Link to="/about">about</Link>
+        <Link to="/vans">vans</Link>
       </nav>
      </header>
       <Routes>
