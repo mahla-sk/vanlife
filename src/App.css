@@ -24,6 +24,11 @@ header {
     align-items: center;
     padding-block: 10px;
 }
+.site-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 header .site-logo {
     color: black;
@@ -31,6 +36,12 @@ header .site-logo {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 25px;
+}
+
+a.active-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #161616;
 }
 
 header a {
@@ -43,6 +54,22 @@ header a {
 header a:hover {
     color: #161616;
     text-decoration: underline;
+}
+
+main {
+    margin-bottom: 84px;
+}
+
+footer {
+    background-color: #161616;
+    color: #AAAAAA;
+    height: 74px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    font-weight: 500;
 }
 
 .link-button {
